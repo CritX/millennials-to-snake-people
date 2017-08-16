@@ -40,8 +40,10 @@ function replaceText(v)
     v = v.replace(/\bShrek?\b/g, "All Stars");
     v = v.replace(/\bAll Stars?\b/g, "Shrek");
     v = v.replace(/\b(M|m)ille(nn|n)ial(s|'s)?\b/g, "faithful servants");
-    v = v.replace(/\b(Jake Paul|JAKE PAUL)?\b/g, "Your mom");
-    v = v.replace(/\b(Pyrocynical | PewDiePie)?\b/g, "Your dad");
+    v = v.replace(/\bJake Paul?\b/g, "Your mom");
+    v = v.replace(/\bJAKE PAUL?\b/g, "YOUR MOM");
+    v = v.replace(/\bPyrocynical?\b/g, "Daddy");
+    v = v.replace(/\bPewDiePie?\b/g, "Daddy");
 
     return v;
 }
