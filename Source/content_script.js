@@ -24,7 +24,23 @@ function replaceText(v)
     v = v.replace(/\b(I|i)scosceles?\b/g, "$1scoceles");
     v = v.replace(/\bEngland('s)?\b/g, "my city$1");
     v = v.replace(/\bTrump('s)?\b/g, "Drumpf$1");
+    v = v.replace(/\b((I|i)t's (E|e)veryday (B|b)ro?\b/g, "England is my city");
     v = v.replace(/\b(It's Everyday Bro?\b/g, "England is my city");
+    v = v.replace(/\b(Minecraft?\b/g, "cringe");
+    v = v.replace(/\b(G|g)randayy?\b/g, "$1od");
+    
+    // And now for every single rendition of CS:GO
+    v = v.replace(/\b(CS:GO?\b/g, "Suka Blyat");
+    v = v.replace(/\b(Counter-Strike: Global Offensive?\b/g, "Suka Blyat");
+    
+    v = v.replace(/\b((TF2 | Team Fortress 2)?\b/g, "CS:GO ripoff");
+    v = v.replace(/\b(Overwatch?\b/g, "CS:GO anime");
+    
+    v = v.replace(/\b(Shrek?\b/g, "All Stars");
+    v = v.replace(/\b(All Stars?\b/g, "Shrek");
+    v = v.replace(/\b((M|m)ille(nn|n)ial(s|'s)?\b/g, "faithful servants");
+    v = v.replace(/\b((Jake Paul|JAKE PAUL)?\b/g, "Your mom");
+    v = v.replace(/\b((Pyrocynical | PewDiePie)?\b/g, "Your dad");
 
     return v;
 }
