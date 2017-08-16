@@ -24,7 +24,7 @@ function replaceText(v)
     v = v.replace(/\b(I|i)scosceles?\b/g, "$1scoceles");
     v = v.replace(/\bEngland('s)?\b/g, "my city$1");
     v = v.replace(/\bTrump('s)?\b/g, "Drumpf$1");
-    v = v.replace(/\b((I|i)t's (E|e)veryday (B|b)ro?\b/g, "England is my city");
+    v = v.replace(/\b(I|i)t's (E|e)veryday (B|b)ro?\b/g, "England is my city");
     v = v.replace(/\bIt's Everyday Bro?\b/g, "England is my city");
     v = v.replace(/\bMinecraft?\b/g, "cringe");
     v = v.replace(/\b(G|g)randayy?\b/g, "$1od");
